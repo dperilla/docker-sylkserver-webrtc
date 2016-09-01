@@ -1,12 +1,8 @@
 FROM ubuntu:xenial
 
-#RUN apt-get update \
-# && apt-get install -y wget
-
 RUN echo "deb    http://ag-projects.com/ubuntu xenial main " >> /etc/apt/sources.list \
  && echo "deb-src    http://ag-projects.com/ubuntu xenial main " >> /etc/apt/sources.list
 
-#RUN wget http://download.ag-projects.com/agp-debian-gpg.key \
 ADD http://download.ag-projects.com/agp-debian-gpg.key . 
 RUN  apt-key add agp-debian-gpg.key \
   &&  apt-key add agp-debian-gpg.key \ 
