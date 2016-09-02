@@ -12,7 +12,7 @@ More info in http://projects.ag-projects.com/projects/sylkserver/wiki/WebRTC
 
 #Installation:
 
-Install Docker.
+Install Docker(https://docs.docker.com/engine/installation/).
 
 Download automated build from public Docker Hub Registry: docker pull dperilla/docker-sylkserver-webrtc
 
