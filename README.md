@@ -9,6 +9,17 @@ Starting with version 3.0.0 SylkServer features WebRTC gateway capabilities. Thi
 
 More info in http://projects.ag-projects.com/projects/sylkserver/wiki/WebRTC
 
+
+Installation:
+
+Install Docker.
+
+Download automated build from public Docker Hub Registry: docker pull dperilla/docker-sylkserver-webrtc
+
+(alternatively, you can build an image from Dockerfile: docker build -t="dperilla/sylkserver" github.com/dperilla/docker-sylkserver-webrtc)
+
+Usage
+
 # Run the following command:
 docker run -d --name my-sylkserver dperilla/docker-sylkserver-webrtc
 
