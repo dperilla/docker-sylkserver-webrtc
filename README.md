@@ -1,7 +1,7 @@
 # dperilla/docker-sylkserver-webrtc
 Docker image for Sylkserver WebRTC Gateway with is that bundles the latest version of sylkserver in ubuntu LTS Xenial. Is based in oficial installation: http://sylkserver.com/download/
 
-What is Sylkserver?
+#What is Sylkserver?
 
 SylkServer allows creation and delivery of rich multimedia applications accessed by SIP Clients, XMPP endpoints and Web applications. The server supports SIP and XMPP signaling, RTP, MSRP and WebRTC media planes, has built in capabilities for creating multiparty conferences with wideband Audio, IM/ File Transfers and can be easily extended with other custom applications by using Python language.
 
@@ -10,7 +10,7 @@ Starting with version 3.0.0 SylkServer features WebRTC gateway capabilities. Thi
 More info in http://projects.ag-projects.com/projects/sylkserver/wiki/WebRTC
 
 
-Installation:
+#Installation:
 
 Install Docker.
 
@@ -18,7 +18,7 @@ Download automated build from public Docker Hub Registry: docker pull dperilla/d
 
 (alternatively, you can build an image from Dockerfile: docker build -t="dperilla/sylkserver" github.com/dperilla/docker-sylkserver-webrtc)
 
-Usage
+#Usage
 
 # Run the following command:
 docker run -d --name my-sylkserver dperilla/docker-sylkserver-webrtc
