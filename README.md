@@ -1,4 +1,4 @@
-# dperilla/docker-sylkserver-webrtc
+# docker-sylkserver-webrtc
 Docker image for Sylkserver WebRTC Gateway with is that bundles the latest version of sylkserver in ubuntu LTS Xenial. Is based in oficial installation: http://sylkserver.com/download/
 
 #What is Sylkserver?
