@@ -17,6 +17,7 @@ docker exec -it my-sylkserver bash
 
 # To set public ip to container (example public ip 88.88.88.2):
 docker network create --subnet 88.88.88.0/24 --gateway 88.88.88.254 iptastic
+
 docker run -d --name --net iptastic --ip 88.88.88.2 my-sylkserver dperilla/docker-sylkserver-webrtc
 
 More info in:
